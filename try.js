@@ -36,6 +36,7 @@ function UserInput(){
         date.style.display = 'none';
         umur.style.display = 'none';
         btn.style.display = 'none';
+        sugi.style.display = '';
         btnOrtu.style.display = ''
     }
     document.getElementById('body').innerText = user.value + ' ' + 'telah log in pada' + ' ' + date.value
