@@ -45,8 +45,8 @@ function Bocil(){
     location.replace('/Bocil.html')
 }
 function Pemuda(){
-    location.replace('/Bocil.html')
+    location.replace('/Pemuda.html')
 }
 function Ortu(){
-    location.replace('/Bocil.html')
+    location.replace('/Ortu.html')
 }
