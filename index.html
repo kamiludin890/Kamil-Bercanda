@@ -7,18 +7,22 @@
     <title>KAMIL</title>
 </head>
 <body>
-    <div>
-        <div class="UI1">
-            <input type="text" placeholder="Nama" id="UserName"/>
-            <input type="text" placeholder="Umur" id="Umur"/>
-            <input type="date" id="date"/>
-            <button onclick ="UserInput()" id="btn" >Log In</button>
+    <div class="UI1">
+            <div class="Inputan">
+                <input type="text" placeholder="Nama" id="UserName"/>
+                <input type="text" placeholder="Umur" id="Umur"/>
+                <input type="date" id="date"/>
+                <button onclick ="UserInput()" id="btn" >Log In</button>
+            </div>
             <div id="body"></div>
             <div id="textumur"></div>
-            <div id="Gambar1"><img src="genshin-impact.gif" alt="" id="bocil"></div>
-            <div id="Gambar2"><img src="sekolah.gif" alt="" id="bocil"></div>
-            <div id="Gambar3"><img src="sugi.gif" alt="" id="bocil"></div>
-        </div>
+            <div id="Gambar1" style="display: none;" ><img src="genshin-impact.gif" alt="" id="bocil"></div>
+            <div id="Gambar2" style="display: none;" ><img src="sekolah.gif" alt="" id="bocil"></div>
+            <div id="Gambar3" style="display: none;" ><img src="sugi.gif" alt="" id="bocil"></div>
+            
+            <button onclick ="Bocil()" id="btnBocil" style="display: none;">Perubahan</button>
+            <button onclick ="Pemuda()" id="btnPemuda" style="display: none;">Perubahan</button>
+            <button onclick ="Ortu()" id="btnOrtu" style="display: none;">Perubahan</button>
     </div>
     <script src="try.js"></script>
 </body>
